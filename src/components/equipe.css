@@ -1,0 +1,57 @@
+body {
+  margin: 0%;
+  background-color: white;
+}
+.username {
+  border-radius: 0.5rem;
+  text-decoration: none;
+
+  font-family: "Style Script", cursive;
+
+  box-shadow: 20px 20px 50px rgba(120, 110, 216, 0.5);
+  border-radius: 15px;
+  margin-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  transform-style: preserve-3d;
+  transform: perspective(800px);
+}
+.profil {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.equipe {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 0px;
+  background-color: #fff;
+  color: #444;
+  justify-content: space-around;
+  margin-left: 10%;
+}
+.equipe h3 {
+  justify-content: start;
+}
+.notreEq {
+  text-align: center;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul li {
+  margin: 0.75rem 0rem;
+  padding: 0%;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
